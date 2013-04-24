@@ -8,13 +8,14 @@
 
 [user]
   name = Andrzej Kała
-  email = andrzej.kala@gmail.com
+	email = andrzej@up-next.com
 [alias]
   co = checkout
   promote = !$ZSH/bin/git-promote
   wtf     = !$ZSH/bin/git-wtf
   rank-contributers = !$ZSH/bin/git-rank-contributers
   count   = !git shortlog -sn
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit
 [color]
   diff = auto
   status = auto

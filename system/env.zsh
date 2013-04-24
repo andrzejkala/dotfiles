@@ -1,4 +1,4 @@
-export EDITOR='mate -w'
+export EDITOR='subl'
 
 # Load environment variables from .env file if it exists
 # in the current directory
